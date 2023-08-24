@@ -25,7 +25,9 @@ public:
     std::string statusString();
 private:
     sylar::RWMutex m_mutex;
+    // 评论id，评论
     std::unordered_map<int64_t, blog::data::CommentInfo::ptr> m_datas;
+    // 文章id，(评论id，评论)
     std::unordered_map<int64_t, std::map<int64_t, blog::data::CommentInfo::ptr> > m_articles;
     std::map<int64_t, blog::data::CommentInfo::ptr> m_verifys;
 };

@@ -70,10 +70,13 @@ private:
 
     void buildWordIdx(const std::string& str, uint32_t idx);
 private:
-    uint64_t m_createTime;
-    uint64_t m_endTime;
-    std::vector<uint64_t> m_docs;
+    uint64_t m_createTime;  // 创建索引的开始时间
+    uint64_t m_endTime;  // 创建索引的结束时间
+    std::vector<uint64_t> m_docs;  // 所有文章的 id
+    // type, key, bitmap(idx, true)
+    // idx 越小，文章权重越高
     std::map<uint64_t, std::map<uint64_t, sylar::ds::Bitmap::ptr> > m_indexs;
+    // hash_value, word
     std::unordered_map<uint64_t, std::string> m_strings;
 };
 

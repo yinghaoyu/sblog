@@ -20,7 +20,9 @@ public:
     std::string statusString();
 private:
     sylar::RWMutex m_mutex;
+    // id，文章
     std::unordered_map<int64_t, blog::data::ArticleCategoryRelInfo::ptr> m_datas;
+    // 文章id，(目录id，文章)
     std::unordered_map<int64_t, std::map<int64_t, blog::data::ArticleCategoryRelInfo::ptr> > m_articles;
 };
 

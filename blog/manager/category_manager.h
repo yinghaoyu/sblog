@@ -21,7 +21,9 @@ public:
     std::string statusString();
 private:
     sylar::RWMutex m_mutex;
+    // 目录id，目录
     std::unordered_map<int64_t, blog::data::CategoryInfo::ptr> m_datas;
+    // 用户id，(目录名，目录)
     std::unordered_map<int64_t, std::map<std::string, blog::data::CategoryInfo::ptr> > m_users;
 };
 

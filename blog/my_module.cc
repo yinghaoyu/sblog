@@ -137,6 +137,7 @@ bool MyModule::onServerReady() {
 
     WordParserMgr::GetInstance();
     IndexMgr::GetInstance()->build();
+    // 每 5 分钟重建一次索引
     sylar::IOManager::GetThis()->addTimer(5 * 60 * 1000, [](){
         IndexMgr::GetInstance()->build();
     }, true);

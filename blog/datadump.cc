@@ -15,6 +15,9 @@
 
 static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();
 
+// 把数据从 from 导入到 to 中，例如
+// Dao = blog::data::ArticleInfoDao
+//  T  = blog::data::ArticleInfo
 template<class Dao, class T>
 bool trans_data(sylar::IDB::ptr from, sylar::IDB::ptr to) {
     std::vector<typename T::ptr> vals;
@@ -24,7 +27,7 @@ bool trans_data(sylar::IDB::ptr from, sylar::IDB::ptr to) {
             << " (" << from->getErrno() << ")";
         return false;
     }
-
+    // 开启事务
     auto trans = to->openTransaction();
     if(!trans) {
         SYLAR_LOG_ERROR(g_logger) << "openTransaction fail type:"
@@ -32,6 +35,7 @@ bool trans_data(sylar::IDB::ptr from, sylar::IDB::ptr to) {
             << " (" << from->getErrno() << ")";
         return false;
     }
+    // 更新数据
     bool has_error = false;
     for(auto& i : vals) {
         if(Dao::InsertOrUpdate(i, to)) {
@@ -42,7 +46,7 @@ bool trans_data(sylar::IDB::ptr from, sylar::IDB::ptr to) {
             break;
         }
     }
-
+    // 提交事务
     if(!has_error) {
         if(!trans->commit()) {
             SYLAR_LOG_ERROR(g_logger) << "commit fail type:"
@@ -56,9 +60,9 @@ bool trans_data(sylar::IDB::ptr from, sylar::IDB::ptr to) {
 }
 
 struct ConnInfo {
-    std::string type;
-    std::string path;
-    std::map<std::string, std::string> args;
+    std::string type;  // 数据库类型：比如 mysql、sqlite3
+    std::string path;  // sqlite3 的数据库实例路径，仅使用 sqlite3 时有效
+    std::map<std::string, std::string> args;  // mysql 的配置参数，仅使用 mysql 时有效
 };
 
 bool ParserString(const std::string& str, ConnInfo& info) {
@@ -71,6 +75,7 @@ bool ParserString(const std::string& str, ConnInfo& info) {
         info.path = parts[1];
         return true;
     } else if(parts[0] == "mysql") {
+        // 分割参数
         auto t = sylar::split(parts[1], '&');
         for(auto& x : t) {
             auto v = sylar::split(x, '=');
@@ -84,6 +89,7 @@ bool ParserString(const std::string& str, ConnInfo& info) {
     return false;
 }
 
+// 根据不同的数据库类型创建数据库实例
 sylar::IDB::ptr createConn(const ConnInfo& info) {
     if(info.type == "sqlite3") {
         return sylar::SQLite3::Create(info.path);
@@ -121,6 +127,7 @@ int main(int argc, char** argv) {
     if(!from || !to) {
         return 0;
     }
+    // 创建数据表
 #define XX(type) \
     if(std::dynamic_pointer_cast<sylar::SQLite3>(to)) { \
         if(!type ## Dao::CreateTableSQLite3(to)) { \

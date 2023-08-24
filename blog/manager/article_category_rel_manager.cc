@@ -63,6 +63,7 @@ bool ArticleCategoryRelManager::listByArticleId(std::vector<data::ArticleCategor
     return true;
 }
 
+// 根据文章id，目录id获取文章
 blog::data::ArticleCategoryRelInfo::ptr ArticleCategoryRelManager::getByArticleIdCategoryId(int64_t article_id
                     ,int64_t category_id) {
     sylar::RWMutex::ReadLock lock(m_mutex);

@@ -1,0 +1,982 @@
+[
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/datadump.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/data_dump.dir/blog/datadump.cc.o -c /mnt/g/others/sblog/blog/datadump.cc",
+  "file": "/mnt/g/others/sblog/blog/datadump.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/my_module.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/my_module.cc.o -c /mnt/g/others/sblog/blog/my_module.cc",
+  "file": "/mnt/g/others/sblog/blog/my_module.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/word_parser.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/word_parser.cc.o -c /mnt/g/others/sblog/blog/word_parser.cc",
+  "file": "/mnt/g/others/sblog/blog/word_parser.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/index.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/index.cc.o -c /mnt/g/others/sblog/blog/index.cc",
+  "file": "/mnt/g/others/sblog/blog/index.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/article_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/article_manager.cc.o -c /mnt/g/others/sblog/blog/manager/article_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/article_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/article_category_rel_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/article_category_rel_manager.cc.o -c /mnt/g/others/sblog/blog/manager/article_category_rel_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/article_category_rel_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/article_label_rel_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/article_label_rel_manager.cc.o -c /mnt/g/others/sblog/blog/manager/article_label_rel_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/article_label_rel_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/category_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/category_manager.cc.o -c /mnt/g/others/sblog/blog/manager/category_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/category_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/channel_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/channel_manager.cc.o -c /mnt/g/others/sblog/blog/manager/channel_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/channel_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/comment_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/comment_manager.cc.o -c /mnt/g/others/sblog/blog/manager/comment_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/comment_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/label_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/label_manager.cc.o -c /mnt/g/others/sblog/blog/manager/label_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/label_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/manager/user_manager.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/manager/user_manager.cc.o -c /mnt/g/others/sblog/blog/manager/user_manager.cc",
+  "file": "/mnt/g/others/sblog/blog/manager/user_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/channel_query_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/channel_query_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/channel_query_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/channel_query_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/comment_create_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/comment_create_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/comment_create_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/comment_create_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/comment_delete_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/comment_delete_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/comment_delete_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/comment_delete_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/comment_detail_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/comment_detail_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/comment_detail_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/comment_detail_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/comment_verify_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/comment_verify_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/comment_verify_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/comment_verify_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/comment_verify_list_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/comment_verify_list_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/comment_verify_list_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/comment_verify_list_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/comment_query_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/comment_query_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/comment_query_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/comment_query_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_create_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_create_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_create_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_create_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_delete_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_delete_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_delete_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_delete_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_detail_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_detail_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_detail_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_detail_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_interact_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_interact_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_interact_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_interact_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_nearby_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_nearby_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_nearby_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_nearby_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_property_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_property_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_property_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_property_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_publish_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_publish_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_publish_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_publish_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_query_interact_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_query_interact_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_query_interact_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_query_interact_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_query_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_query_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_query_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_query_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_update_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_update_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_update_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_update_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_update_category_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_update_category_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_update_category_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_update_category_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_update_label_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_update_label_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_update_label_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_update_label_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_snappy_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_snappy_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_snappy_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_snappy_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_verify_list_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_verify_list_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_verify_list_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_verify_list_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/article_verify_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/article_verify_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/article_verify_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/article_verify_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/category_create_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/category_create_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/category_create_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/category_create_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/category_delete_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/category_delete_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/category_delete_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/category_delete_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/category_query_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/category_query_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/category_query_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/category_query_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/label_create_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/label_create_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/label_create_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/label_create_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/label_delete_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/label_delete_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/label_delete_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/label_delete_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/label_query_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/label_query_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/label_query_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/label_query_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_active_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_active_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_active_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_active_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_create_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_create_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_create_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_create_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_change_passwd_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_change_passwd_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_change_passwd_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_change_passwd_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_exists_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_exists_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_exists_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_exists_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_forget_passwd_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_forget_passwd_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_forget_passwd_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_forget_passwd_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_info_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_info_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_info_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_info_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_login_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_login_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_login_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_login_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_logout_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_logout_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_logout_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_logout_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_query_interact_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_query_interact_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_query_interact_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_query_interact_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_query_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_query_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_query_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_query_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/servlets/user_update_servlet.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/servlets/user_update_servlet.cc.o -c /mnt/g/others/sblog/blog/servlets/user_update_servlet.cc",
+  "file": "/mnt/g/others/sblog/blog/servlets/user_update_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/struct.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/struct.cc.o -c /mnt/g/others/sblog/blog/struct.cc",
+  "file": "/mnt/g/others/sblog/blog/struct.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build",
+  "command": "/usr/bin/c++  -Dsblog_EXPORTS -D__FILE__=\\\"blog/util.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC -fPIC   -o CMakeFiles/sblog.dir/blog/util.cc.o -c /mnt/g/others/sblog/blog/util.cc",
+  "file": "/mnt/g/others/sblog/blog/util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dtest_module_EXPORTS -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/test_module.dir/tests/test_module.cc.o -c /mnt/g/others/sblog/sylar/tests/test_module.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_module.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"sylar/orm/table.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/orm.dir/sylar/orm/table.cc.o -c /mnt/g/others/sblog/sylar/sylar/orm/table.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/orm/table.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"sylar/orm/column.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/orm.dir/sylar/orm/column.cc.o -c /mnt/g/others/sblog/sylar/sylar/orm/column.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/orm/column.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"sylar/orm/index.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/orm.dir/sylar/orm/index.cc.o -c /mnt/g/others/sblog/sylar/sylar/orm/index.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/orm/index.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"sylar/orm/orm.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/orm.dir/sylar/orm/orm.cc.o -c /mnt/g/others/sblog/sylar/sylar/orm/orm.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/orm/orm.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"sylar/orm/util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/orm.dir/sylar/orm/util.cc.o -c /mnt/g/others/sblog/sylar/sylar/orm/util.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/orm/util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_http2_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_http2client.dir/tests/test_http2_client.cc.o -c /mnt/g/others/sblog/sylar/tests/test_http2_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_http2_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_dict.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_dict.dir/tests/test_dict.cc.o -c /mnt/g/others/sblog/sylar/tests/test_dict.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_dict.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_hashmap.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_hashmap.dir/tests/test_hashmap.cc.o -c /mnt/g/others/sblog/sylar/tests/test_hashmap.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_hashmap.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_hashmultimap.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_hashmultimap.dir/tests/test_hashmultimap.cc.o -c /mnt/g/others/sblog/sylar/tests/test_hashmultimap.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_hashmultimap.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"sylar/main.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/bin_sylar.dir/sylar/main.cc.o -c /mnt/g/others/sblog/sylar/sylar/main.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/main.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_util.dir/tests/test_util.cc.o -c /mnt/g/others/sblog/sylar/tests/test_util.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_service_discovery.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_service_discovery.dir/tests/test_service_discovery.cc.o -c /mnt/g/others/sblog/sylar/tests/test_service_discovery.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_service_discovery.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_nameserver.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_nameserver.dir/tests/test_nameserver.cc.o -c /mnt/g/others/sblog/sylar/tests/test_nameserver.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_nameserver.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_email.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_email.dir/tests/test_email.cc.o -c /mnt/g/others/sblog/sylar/tests/test_email.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_email.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_zlib_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_zlib_stream.dir/tests/test_zlib_stream.cc.o -c /mnt/g/others/sblog/sylar/tests/test_zlib_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_zlib_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_http.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_http.dir/tests/test_http.cc.o -c /mnt/g/others/sblog/sylar/tests/test_http.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_http.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_bitmap.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_bitmap.dir/tests/test_bitmap.cc.o -c /mnt/g/others/sblog/sylar/tests/test_bitmap.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_bitmap.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_socket.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_socket.dir/tests/test_socket.cc.o -c /mnt/g/others/sblog/sylar/tests/test_socket.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_socket.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_timed_lru_cache.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_timed_lru_cache.dir/tests/test_timed_lru_cache.cc.o -c /mnt/g/others/sblog/sylar/tests/test_timed_lru_cache.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_timed_lru_cache.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_http_parser.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_http_parser.dir/tests/test_http_parser.cc.o -c /mnt/g/others/sblog/sylar/tests/test_http_parser.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_http_parser.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_tcp_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_tcp_server.dir/tests/test_tcp_server.cc.o -c /mnt/g/others/sblog/sylar/tests/test_tcp_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_tcp_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_iomanager.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_iomanager.dir/tests/test_iomanager.cc.o -c /mnt/g/others/sblog/sylar/tests/test_iomanager.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_iomanager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_sqlite3.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_sqlite3.dir/tests/test_sqlite3.cc.o -c /mnt/g/others/sblog/sylar/tests/test_sqlite3.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_sqlite3.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"examples/echo_server_udp.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/echo_server_udp.dir/examples/echo_server_udp.cc.o -c /mnt/g/others/sblog/sylar/examples/echo_server_udp.cc",
+  "file": "/mnt/g/others/sblog/sylar/examples/echo_server_udp.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_address.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_address.dir/tests/test_address.cc.o -c /mnt/g/others/sblog/sylar/tests/test_address.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_address.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_http_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_http_server.dir/tests/test_http_server.cc.o -c /mnt/g/others/sblog/sylar/tests/test_http_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_http_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_http2_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_http2server.dir/tests/test_http2_server.cc.o -c /mnt/g/others/sblog/sylar/tests/test_http2_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_http2_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_fiber.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_fiber.dir/tests/test_fiber.cc.o -c /mnt/g/others/sblog/sylar/tests/test_fiber.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_fiber.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"examples/echo_udp_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/echo_udp_client.dir/examples/echo_udp_client.cc.o -c /mnt/g/others/sblog/sylar/examples/echo_udp_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/examples/echo_udp_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_rock.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_rock.dir/tests/test_rock.cc.o -c /mnt/g/others/sblog/sylar/tests/test_rock.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_rock.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_thread.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_thread.dir/tests/test_thread.cc.o -c /mnt/g/others/sblog/sylar/tests/test_thread.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_thread.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_config.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_config.dir/tests/test_config.cc.o -c /mnt/g/others/sblog/sylar/tests/test_config.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_config.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_hook.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_hook.dir/tests/test_hook.cc.o -c /mnt/g/others/sblog/sylar/tests/test_hook.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_hook.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_grpc_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_grpcclient.dir/tests/test_grpc_client.cc.o -c /mnt/g/others/sblog/sylar/tests/test_grpc_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_grpc_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test.pb.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_grpcclient.dir/tests/test.pb.cc.o -c /mnt/g/others/sblog/sylar/tests/test.pb.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test.pb.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/address.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/address.cc.o -c /mnt/g/others/sblog/sylar/sylar/address.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/address.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/application.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/application.cc.o -c /mnt/g/others/sblog/sylar/sylar/application.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/application.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/bytearray.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/bytearray.cc.o -c /mnt/g/others/sblog/sylar/sylar/bytearray.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/bytearray.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/config.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/config.cc.o -c /mnt/g/others/sblog/sylar/sylar/config.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/config.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/dns.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/dns.cc.o -c /mnt/g/others/sblog/sylar/sylar/dns.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/dns.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/db/fox_thread.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/db/fox_thread.cc.o -c /mnt/g/others/sblog/sylar/sylar/db/fox_thread.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/db/fox_thread.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/db/mysql.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/db/mysql.cc.o -c /mnt/g/others/sblog/sylar/sylar/db/mysql.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/db/mysql.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/db/redis.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/db/redis.cc.o -c /mnt/g/others/sblog/sylar/sylar/db/redis.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/db/redis.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/db/sqlite3.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/db/sqlite3.cc.o -c /mnt/g/others/sblog/sylar/sylar/db/sqlite3.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/db/sqlite3.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ds/bitmap.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ds/bitmap.cc.o -c /mnt/g/others/sblog/sylar/sylar/ds/bitmap.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ds/bitmap.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ds/roaring_bitmap.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ds/roaring_bitmap.cc.o -c /mnt/g/others/sblog/sylar/sylar/ds/roaring_bitmap.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ds/roaring_bitmap.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/cc -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ds/roaring.c\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ds/roaring.c.o   -c /mnt/g/others/sblog/sylar/sylar/ds/roaring.c",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ds/roaring.c"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ds/util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ds/util.cc.o -c /mnt/g/others/sblog/sylar/sylar/ds/util.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ds/util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/email/email.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/email/email.cc.o -c /mnt/g/others/sblog/sylar/sylar/email/email.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/email/email.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/email/smtp.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/email/smtp.cc.o -c /mnt/g/others/sblog/sylar/sylar/email/smtp.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/email/smtp.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/env.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/env.cc.o -c /mnt/g/others/sblog/sylar/sylar/env.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/env.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/daemon.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/daemon.cc.o -c /mnt/g/others/sblog/sylar/sylar/daemon.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/daemon.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/fd_manager.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/fd_manager.cc.o -c /mnt/g/others/sblog/sylar/sylar/fd_manager.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/fd_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/file_manager.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/file_manager.cc.o -c /mnt/g/others/sblog/sylar/sylar/file_manager.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/file_manager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/fiber.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/fiber.cc.o -c /mnt/g/others/sblog/sylar/sylar/fiber.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/fiber.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/grpc/grpc_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/grpc/grpc_stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/grpc/grpc_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/grpc/grpc_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/cc -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/libaco/aco.c\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/libaco/aco.c.o   -c /mnt/g/others/sblog/sylar/sylar/libaco/aco.c",
+  "file": "/mnt/g/others/sblog/sylar/sylar/libaco/aco.c"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/libco/coctx.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/libco/coctx.cc.o -c /mnt/g/others/sblog/sylar/sylar/libco/coctx.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/libco/coctx.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/http.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/http.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/http.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_connection.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/http_connection.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/http_connection.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/http_connection.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_parser.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/http_parser.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/http_parser.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/http_parser.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_session.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/http_session.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/http_session.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/http_session.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/http_server.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/http_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/http_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/servlet.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/servlet.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/servlet.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/servlets/config_servlet.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/servlets/config_servlet.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/servlets/config_servlet.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/servlets/config_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/servlets/status_servlet.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/servlets/status_servlet.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/servlets/status_servlet.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/servlets/status_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/session_data.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/session_data.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/session_data.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/session_data.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/ws_connection.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/ws_connection.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/ws_connection.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/ws_connection.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/ws_session.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/ws_session.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/ws_session.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/ws_session.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/ws_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/ws_server.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/ws_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/ws_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/dynamic_table.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/dynamic_table.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/dynamic_table.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/dynamic_table.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/frame.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/frame.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/frame.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/frame.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/hpack.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/hpack.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/hpack.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/hpack.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/http2_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/http2_stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/http2_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/http2_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/http2_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/http2_server.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/http2_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/http2_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/huffman.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/huffman.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/huffman.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/huffman.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http2/stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http2/stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/http2/stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http2/stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/ws_servlet.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/ws_servlet.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/ws_servlet.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/ws_servlet.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/hook.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/hook.cc.o -c /mnt/g/others/sblog/sylar/sylar/hook.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/hook.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/iomanager.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/iomanager.cc.o -c /mnt/g/others/sblog/sylar/sylar/iomanager.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/iomanager.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/kafka_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/kafka_client.cc.o -c /mnt/g/others/sblog/sylar/sylar/kafka_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/kafka_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/library.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/library.cc.o -c /mnt/g/others/sblog/sylar/sylar/library.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/library.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/log.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/log.cc.o -c /mnt/g/others/sblog/sylar/sylar/log.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/log.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/module.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/module.cc.o -c /mnt/g/others/sblog/sylar/sylar/module.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/module.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/mutex.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/mutex.cc.o -c /mnt/g/others/sblog/sylar/sylar/mutex.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/mutex.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ns/name_server_module.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ns/name_server_module.cc.o -c /mnt/g/others/sblog/sylar/sylar/ns/name_server_module.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ns/name_server_module.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ns/ns_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ns/ns_client.cc.o -c /mnt/g/others/sblog/sylar/sylar/ns/ns_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ns/ns_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ns/ns_protocol.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ns/ns_protocol.cc.o -c /mnt/g/others/sblog/sylar/sylar/ns/ns_protocol.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ns/ns_protocol.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/protocol.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/protocol.cc.o -c /mnt/g/others/sblog/sylar/sylar/protocol.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/protocol.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/rock/rock_protocol.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/rock/rock_protocol.cc.o -c /mnt/g/others/sblog/sylar/sylar/rock/rock_protocol.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/rock/rock_protocol.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/rock/rock_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/rock/rock_server.cc.o -c /mnt/g/others/sblog/sylar/sylar/rock/rock_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/rock/rock_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/rock/rock_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/rock/rock_stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/rock/rock_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/rock/rock_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/scheduler.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/scheduler.cc.o -c /mnt/g/others/sblog/sylar/sylar/scheduler.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/scheduler.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/socket.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/socket.cc.o -c /mnt/g/others/sblog/sylar/sylar/socket.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/socket.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/streams/async_socket_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/streams/async_socket_stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/streams/async_socket_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/streams/async_socket_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/streams/socket_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/streams/socket_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/streams/socket_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/streams/load_balance.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/streams/load_balance.cc.o -c /mnt/g/others/sblog/sylar/sylar/streams/load_balance.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/streams/load_balance.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/streams/service_discovery.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/streams/service_discovery.cc.o -c /mnt/g/others/sblog/sylar/sylar/streams/service_discovery.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/streams/service_discovery.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/streams/zlib_stream.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/streams/zlib_stream.cc.o -c /mnt/g/others/sblog/sylar/sylar/streams/zlib_stream.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/streams/zlib_stream.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/tcp_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/tcp_server.cc.o -c /mnt/g/others/sblog/sylar/sylar/tcp_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/tcp_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/timer.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/timer.cc.o -c /mnt/g/others/sblog/sylar/sylar/timer.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/timer.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/thread.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/thread.cc.o -c /mnt/g/others/sblog/sylar/sylar/thread.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/thread.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/util.cc.o -c /mnt/g/others/sblog/sylar/sylar/util.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util/crypto_util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/util/crypto_util.cc.o -c /mnt/g/others/sblog/sylar/sylar/util/crypto_util.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/util/crypto_util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util/json_util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/util/json_util.cc.o -c /mnt/g/others/sblog/sylar/sylar/util/json_util.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/util/json_util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util/hash_util.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/util/hash_util.cc.o -c /mnt/g/others/sblog/sylar/sylar/util/hash_util.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/util/hash_util.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util/trace.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/util/trace.cc.o -c /mnt/g/others/sblog/sylar/sylar/util/trace.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/util/trace.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util/tracker.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/util/tracker.cc.o -c /mnt/g/others/sblog/sylar/sylar/util/tracker.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/util/tracker.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/worker.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/worker.cc.o -c /mnt/g/others/sblog/sylar/sylar/worker.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/worker.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/zk_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/zk_client.cc.o -c /mnt/g/others/sblog/sylar/sylar/zk_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/zk_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/http11_parser.rl.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/http11_parser.rl.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/http11_parser.rl.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/http/httpclient_parser.rl.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cc.o -c /mnt/g/others/sblog/sylar/sylar/http/httpclient_parser.rl.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/http/httpclient_parser.rl.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/uri.rl.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/uri.rl.cc.o -c /mnt/g/others/sblog/sylar/sylar/uri.rl.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/uri.rl.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/ns/ns_protobuf.pb.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/ns/ns_protobuf.pb.cc.o -c /mnt/g/others/sblog/sylar/sylar/ns/ns_protobuf.pb.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/ns/ns_protobuf.pb.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -Dsylar_EXPORTS -D__FILE__=\\\"sylar/proto/logserver.pb.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/sylar.dir/sylar/proto/logserver.pb.cc.o -c /mnt/g/others/sblog/sylar/sylar/proto/logserver.pb.cc",
+  "file": "/mnt/g/others/sblog/sylar/sylar/proto/logserver.pb.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_zookeeper.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_zkclient.dir/tests/test_zookeeper.cc.o -c /mnt/g/others/sblog/sylar/tests/test_zookeeper.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_zookeeper.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_env.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_env.dir/tests/test_env.cc.o -c /mnt/g/others/sblog/sylar/tests/test_env.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_env.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_bytearray.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_bytearray.dir/tests/test_bytearray.cc.o -c /mnt/g/others/sblog/sylar/tests/test_bytearray.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_bytearray.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_http_connection.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_http_connection.dir/tests/test_http_connection.cc.o -c /mnt/g/others/sblog/sylar/tests/test_http_connection.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_http_connection.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_ws_client.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_ws_client.dir/tests/test_ws_client.cc.o -c /mnt/g/others/sblog/sylar/tests/test_ws_client.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_ws_client.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_mysql.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_mysql.dir/tests/test_mysql.cc.o -c /mnt/g/others/sblog/sylar/tests/test_mysql.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_mysql.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"examples/echo_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/echo_server.dir/examples/echo_server.cc.o -c /mnt/g/others/sblog/sylar/examples/echo_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/examples/echo_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_uri.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_uri.dir/tests/test_uri.cc.o -c /mnt/g/others/sblog/sylar/tests/test_uri.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_uri.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_array.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_array.dir/tests/test_array.cc.o -c /mnt/g/others/sblog/sylar/tests/test_array.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_array.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_scheduler.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_scheduler.dir/tests/test_scheduler.cc.o -c /mnt/g/others/sblog/sylar/tests/test_scheduler.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_scheduler.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_lru.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_lru.dir/tests/test_lru.cc.o -c /mnt/g/others/sblog/sylar/tests/test_lru.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_lru.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"samples/my_http_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/my_http_server.dir/samples/my_http_server.cc.o -c /mnt/g/others/sblog/sylar/samples/my_http_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/samples/my_http_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test1.dir/tests/test.cc.o -c /mnt/g/others/sblog/sylar/tests/test.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_daemon.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_daemon.dir/tests/test_daemon.cc.o -c /mnt/g/others/sblog/sylar/tests/test_daemon.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_daemon.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_crypto.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_crypto.dir/tests/test_crypto.cc.o -c /mnt/g/others/sblog/sylar/tests/test_crypto.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_crypto.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_application.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_application.dir/tests/test_application.cc.o -c /mnt/g/others/sblog/sylar/tests/test_application.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_application.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_ws_server.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_ws_server.dir/tests/test_ws_server.cc.o -c /mnt/g/others/sblog/sylar/tests/test_ws_server.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_ws_server.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/sylar",
+  "command": "/usr/bin/c++  -DDBUG_OFF -D__FILE__=\\\"tests/test_timed_cache.cc\\\" -I/mnt/g/others/sblog/sylar/. -I/usr/include/mysql   -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_timed_cache.dir/tests/test_timed_cache.cc.o -c /mnt/g/others/sblog/sylar/tests/test_timed_cache.cc",
+  "file": "/mnt/g/others/sblog/sylar/tests/test_timed_cache.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/article_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/article_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/article_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/article_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/article_category_rel_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/article_category_rel_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/article_category_rel_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/article_category_rel_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/article_label_rel_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/article_label_rel_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/article_label_rel_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/article_label_rel_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/category_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/category_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/category_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/category_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/channel_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/channel_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/channel_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/channel_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/comment_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/comment_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/comment_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/comment_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/label_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/label_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/label_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/label_info.cc"
+},
+{
+  "directory": "/mnt/g/others/sblog/build/orm_out",
+  "command": "/usr/bin/c++   -D__FILE__=\\\"blog/data/user_info.cc\\\" -I/mnt/g/others/sblog/. -I/mnt/g/others/sblog/orm_out   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/orm_data.dir/blog/data/user_info.cc.o -c /mnt/g/others/sblog/orm_out/blog/data/user_info.cc",
+  "file": "/mnt/g/others/sblog/orm_out/blog/data/user_info.cc"
+}
+]

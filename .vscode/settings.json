@@ -1,0 +1,22 @@
+{
+  "files.associations": {
+    "hash_set": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "set": "cpp",
+    "random": "cpp",
+    "fstream": "cpp",
+    "functional": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "ostream": "cpp",
+    "shared_mutex": "cpp",
+    "sstream": "cpp",
+    "streambuf": "cpp",
+    "regex": "cpp",
+    "tuple": "cpp",
+    "memory_resource": "cpp",
+    "condition_variable": "cpp",
+    "complex": "cpp"
+  }
+}

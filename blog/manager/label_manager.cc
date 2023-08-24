@@ -58,6 +58,7 @@ blog::data::LabelInfo::ptr LabelManager::getByUserIdName(int64_t id, const std::
     return iit == it->second.end() ? nullptr : iit->second;
 }
 
+// 列出用户创建的标签
 bool LabelManager::listByUserId(std::vector<data::LabelInfo::ptr>& infos, int64_t id, bool valid) {
     sylar::RWMutex::ReadLock lock(m_mutex);
     auto it = m_users.find(id);

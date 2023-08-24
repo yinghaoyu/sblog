@@ -48,6 +48,7 @@ blog::data::CategoryInfo::ptr CategoryManager::get(int64_t id) {
     XX(m_datas, id);
 }
 
+// 列出用户创建的目录
 bool CategoryManager::listByUserId(std::vector<blog::data::CategoryInfo::ptr>& infos, int64_t id, bool valid) {
     sylar::RWMutex::ReadLock lock(m_mutex);
     auto it = m_users.find(id);
@@ -68,6 +69,7 @@ bool CategoryManager::listByUserId(std::vector<blog::data::CategoryInfo::ptr>& i
     return true;
 }
 
+// 判断用户有没有创建这个目录
 bool CategoryManager::exists(int64_t id, const std::string& name) {
     sylar::RWMutex::ReadLock lock(m_mutex);
     auto it = m_users.find(id);
@@ -78,6 +80,7 @@ bool CategoryManager::exists(int64_t id, const std::string& name) {
     return iit != it->second.end();
 }
 
+// 获取用户创建的目录
 blog::data::CategoryInfo::ptr CategoryManager::getByUserIdName(int64_t id, const std::string& name) {
     sylar::RWMutex::ReadLock lock(m_mutex);
     auto it = m_users.find(id);

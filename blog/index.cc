@@ -30,17 +30,21 @@ static std::map<uint64_t, ParamArgsInfo> s_param_names2 = {
 #undef XX
 };
 
-
+// 获取索引名
 std::string GetIndexTypeName(uint64_t id) {
     auto it = s_param_names2.find(id);
     return it == s_param_names2.end() ? std::to_string(id) : it->second.name;
 }
 
+// 获取索引类型
 int GetIndexTypeType(uint64_t id) {
     auto it = s_param_names2.find(id);
     return it == s_param_names2.end() ? 0 : it->second.type;
 }
 
+// 根据输入参数解析得到输出参数
+// 如果是 string，利用分词算法拆分，保存
+// 如果是 id，直接保存
 void ParseParams(std::map<uint64_t, std::set<uint64_t> >& params,
                  const std::map<std::string, std::string>& input_params) {
     for(auto& i : input_params) {
@@ -50,12 +54,14 @@ void ParseParams(std::map<uint64_t, std::set<uint64_t> >& params,
         }
         std::vector<std::string> parts;
         if(it->second.key == (uint64_t)IndexType::WORD) {
+          // 关键字是单词
             auto parser = WordParserMgr::GetInstance();
             if(!parser) {
                 continue;
             }
             parser->cut(i.second, parts);
         } else {
+            // 除单词外的其他
             parts = sylar::split(i.second, ',');
         }
         for(auto& n : parts) {
@@ -63,6 +69,7 @@ void ParseParams(std::map<uint64_t, std::set<uint64_t> >& params,
                 continue;
             }
             if(it->second.type == 1) {
+                // 类型为 1 的是数字
                 params[it->second.key].insert(sylar::TypeUtil::Atoi(n));
             } else {
                 params[it->second.key].insert(Index::StrHash(n));
@@ -71,6 +78,7 @@ void ParseParams(std::map<uint64_t, std::set<uint64_t> >& params,
     }
 }
 
+// 解析 fields 字段
 void ParseFields(std::map<uint64_t, std::set<uint64_t> >& params,
                  const std::string& str) {
     auto tmp = sylar::split(str, ';');
@@ -115,6 +123,7 @@ uint64_t Index::StrHash(const std::string& str) {
     return sylar::murmur3_hash64(sylar::ToLower(str).c_str());
 }
 
+// 分解字符串为关键字
 void Index::buildWordIdx(const std::string& str, uint32_t idx) {
     auto parser = WordParserMgr::GetInstance();
     if(!parser) {
@@ -146,6 +155,7 @@ std::string Index::getStr(uint64_t id) {
     return it == m_strings.end() ? "" : it->second;
 }
 
+// 给指定位图上标记
 bool Index::set(uint64_t type, uint64_t key, uint32_t idx, bool v) {
     auto b = m_indexs[type][key];
     if(!b) {
@@ -156,6 +166,7 @@ bool Index::set(uint64_t type, uint64_t key, uint32_t idx, bool v) {
     return true;
 }
 
+// 获取指定位图
 sylar::ds::Bitmap::ptr Index::get(uint64_t type, uint64_t key) {
     auto it = m_indexs.find(type);
     if(it == m_indexs.end()) {
@@ -165,11 +176,14 @@ sylar::ds::Bitmap::ptr Index::get(uint64_t type, uint64_t key) {
     return iit == it->second.end() ? nullptr : iit->second;
 }
 
+// 构建索引
 void Index::build() {
     SYLAR_LOG_INFO(g_logger) << "Index build begin...";
     m_createTime = time(0);
     std::vector<data::ArticleInfo::ptr> infos;
+    // 获取所有合法的文章信息
     ArticleMgr::GetInstance()->listByUserIdPages(infos, 0, 0, 0x7FFFFFFF, true, 0);
+    // 二级排序，先根据权重，再根据 id
     std::sort(infos.begin(), infos.end(), [](const data::ArticleInfo::ptr a
                 ,const data::ArticleInfo::ptr b){
         if(a->getWeight() != b->getWeight()) {
@@ -177,11 +191,13 @@ void Index::build() {
         }
         return a->getId() > b->getId();
     });
+    // 保存所有文章 id
     m_docs.reserve(infos.size());
     for(auto& info : infos) {
         m_docs.push_back(info->getId());
     }
     for(size_t i = 0; i < infos.size(); ++i) {
+      // i 越小权重越大
         buildIdx(infos[i], i);
     }
     m_endTime = time(0);
@@ -190,14 +206,17 @@ void Index::build() {
 }
 
 void Index::buildIdx(data::ArticleInfo::ptr info, uint32_t idx) {
+    // 分解并保存文章的有效字段
     set((uint64_t)IndexType::USER_ID, info->getUserId(), idx, true);
     set((uint64_t)IndexType::STATE, info->getState(), idx, true);
     set((uint64_t)IndexType::YEAR_MON, hash(sylar::Time2Str(info->getPublishTime(), "%Y年%m月"), true), idx, true);
     set((uint64_t)IndexType::CHANNEL, info->getChannel(), idx, true);
 
+    // 分解并保存单词
     buildWordIdx(info->getTitle(), idx);
     buildWordIdx(info->getContent(), idx);
 
+    // 分解并保存文章分类的有效字段
     std::vector<data::ArticleCategoryRelInfo::ptr> cats;
     ArticleCategoryRelMgr::GetInstance()->listByArticleId(cats, info->getId(), true);
     for(auto& i : cats) {
@@ -210,6 +229,7 @@ void Index::buildIdx(data::ArticleInfo::ptr info, uint32_t idx) {
         set((uint64_t)IndexType::CAT_NAME, hash(cat->getName().c_str(), true), idx, true);
     }
 
+    // 分解并保存文章标签的有效字段
     std::vector<data::ArticleLabelRelInfo::ptr> labels;
     ArticleLabelRelMgr::GetInstance()->listByArticleId(labels, info->getId(), true);
     for(auto& i : labels) {

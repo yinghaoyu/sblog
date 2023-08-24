@@ -48,12 +48,16 @@ private:
     void addUpdate(int64_t id);
 private:
     sylar::RWMutex m_mutex;
+    // 文章 id, 文章信息
     std::map<int64_t, blog::data::ArticleInfo::ptr> m_datas;
+    // 用户 id, (文章id, 文章信息)
     std::unordered_map<int64_t, std::map<int64_t, blog::data::ArticleInfo::ptr> > m_users;
+    // 需要验证的文章
     std::map<int64_t, blog::data::ArticleInfo::ptr> m_verifys;
     sylar::RWMutex m_viewsMutex;
+    // 文章 id，(cooke_id, timestamp)
     std::map<int64_t, std::map<std::string, int64_t> > m_viewsCache;
-    std::set<int64_t> m_updates;
+    std::set<int64_t> m_updates;  // 当数据库连接出错时，缓存待更新的文章
     sylar::Timer::ptr m_timer;
     sylar::Timer::ptr m_updateTimer;
 };

@@ -75,6 +75,7 @@ int32_t ArticleUpdateLabelServlet::handle(sylar::http::HttpRequest::ptr request
             if(cinfo->getUserId() != uid) {
                 continue;
             }
+            // 给文章添加标签
             auto acinfo = ArticleLabelRelMgr::GetInstance()->getByArticleIdLabelId(id, cid);
             if(acinfo) {
                 if(acinfo->getIsDeleted()) {
@@ -102,6 +103,7 @@ int32_t ArticleUpdateLabelServlet::handle(sylar::http::HttpRequest::ptr request
         if(!dels.empty()) {
             tmps = sylar::split(dels, ',');
         }
+        // 给文章删除标签
         for(auto& i : tmps) {
             int64_t cid = sylar::TypeUtil::Atoi(i);
             auto cinfo = LabelMgr::GetInstance()->get(cid);

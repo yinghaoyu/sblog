@@ -23,16 +23,20 @@ void get_delete_values(std::map<int64_t, std::map<int64_t, data::CategoryInfo::p
                        ,int64_t id, std::set<data::CategoryInfo::ptr>& infos) {
     auto it = parent_map[0].find(id);
     if(it == parent_map[0].end()) {
+        // 没有这个目录
         return;
     }
     if(!infos.insert(it->second).second) {
+        // 目录已经加入待删除集合
         return;
     }
     auto iit = parent_map.find(id);
     if(iit == parent_map.end()) {
+        // 没有子目录
         return;
     }
     for(auto& i : iit->second) {
+        // 递归，把所有子目录加入待删除集合
         get_delete_values(parent_map, i.first, infos);
     }
 }

@@ -48,6 +48,7 @@ blog::data::ArticleLabelRelInfo::ptr ArticleLabelRelManager::get(int64_t id) {
     XX(m_datas, id);
 }
 
+// 根据文章id，标签id获取标签
 blog::data::ArticleLabelRelInfo::ptr ArticleLabelRelManager::getByArticleIdLabelId(int64_t article_id, int64_t label_id) {
     sylar::RWMutex::ReadLock lock(m_mutex);
     auto it = m_articles.find(article_id);

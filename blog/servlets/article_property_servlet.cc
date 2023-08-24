@@ -43,7 +43,9 @@ int32_t ArticlePropertyServlet::handle(sylar::http::HttpRequest::ptr request
         }
         std::map<uint64_t, std::set<uint64_t> > params;
         std::map<uint64_t, std::set<uint64_t> > query_params;
+        // 从请求中，解析得到参数
         ParseParams(params, args);
+        // 解析 field 字段
         ParseFields(query_params, fields);
         std::map<uint64_t, std::map<uint64_t, uint64_t> > props;
         int idx = index->property(props, params, query_params);

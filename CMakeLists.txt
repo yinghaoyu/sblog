@@ -9,17 +9,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC")
 
 include_directories(.)
-include_directories(/apps/sylar/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/sylar)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/sylar/thirdpart)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/sylar/thirdpart)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/sylar/thirdpart/yaml-cpp/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/sylar/thirdpart/jsoncpp-1.8.4/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/orm_out)
-link_directories(/apps/sylar/lib)
-link_directories(/usr/lib)
-link_directories(/usr/lib64)
-link_directories(/usr/lib64/mysql)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/orm_out)
 
@@ -107,6 +97,7 @@ set(LIBS
         dl
         pthread
         yaml-cpp
+        jsoncpp_lib
         ssl
         protobuf
         event
@@ -116,7 +107,7 @@ set(LIBS
         sqlite3
         tinyxml2
         orm_data
-        /apps/sylar/lib64/libjsoncpp.a
+        #/usr/local/lib/libjsoncpp.a
         )
 
 sylar_add_executable(data_dump "blog/datadump.cc" orm_data "${LIBS}")

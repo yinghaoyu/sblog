@@ -9,6 +9,7 @@ namespace blog {
 
 static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();
 
+// 加载所有文章信息
 bool ArticleManager::loadAll() {
     auto db = GetDB();
     if(!db) {
@@ -91,6 +92,7 @@ int64_t ArticleManager::listByUserIdPages(std::vector<data::ArticleInfo::ptr>& i
             return m_datas.size();
         }
         auto it = m_datas.rbegin();
+        // 等价于 it + n
         std::advance(it, offset);
         for(; (int32_t)infos.size() < size && it != m_datas.rend(); ++it) {
             if(!valid || !it->second->getIsDeleted()) {
@@ -167,8 +169,10 @@ void ArticleManager::start() {
     if(m_timer) {
         return;
     }
+    // 每分钟更新内存中的文章到数据库
     m_timer = sylar::IOManager::GetThis()->addTimer(60 * 1000,
                 std::bind(&ArticleManager::onTimer, this), true);
+    // 每 2s 检查定时发布的文章，将满足发布时间的文章更新到数据库
     m_updateTimer = sylar::IOManager::GetThis()->addTimer(2 * 1000,
                 std::bind(&ArticleManager::onUpdateTimer, this), true);
 }
@@ -249,6 +253,7 @@ void ArticleManager::onTimer() {
     }
 }
 
+// 找到包含文章 id 的最小区间
 std::pair<data::ArticleInfo::ptr, data::ArticleInfo::ptr> ArticleManager::nearby(int64_t id) {
     sylar::RWMutex::ReadLock lock(m_mutex);
     auto it = m_datas.find(id);
@@ -305,6 +310,7 @@ void ArticleManager::addUpdate(int64_t id) {
     m_updates.insert(id);
 }
 
+// 增加文章的访问量
 bool ArticleManager::incViews(uint64_t id, const std::string& cooke_id, uint64_t user_id) {
     auto info = get(id);
     if(!info) {
@@ -318,17 +324,20 @@ bool ArticleManager::incViews(uint64_t id, const std::string& cooke_id, uint64_t
     return true;
 }
 
+// 增加用户对文章点赞
 bool ArticleManager::incPraise(uint64_t id, const std::string& cooke_id, uint64_t user_id) {
     auto info = get(id);
     if(!info) {
         return false;
     }
+    // 在 redis 中，hexists 表示检测 hash 域是否存在
     auto rpy = sylar::RedisUtil::Cmd("blog", "hexists pra_a2u:%lld %lld", id, user_id);
     if(!rpy) {
         SYLAR_LOG_ERROR(g_logger) << "hexists fail";
         return false;
     }
     if(rpy->integer == 1) {
+        // 该用户已经点赞过了
         return true;
     }
     rpy = sylar::RedisUtil::Cmd("blog", "hset pra_a2u:%lld %lld %lld", id, user_id, time(0));
@@ -347,6 +356,7 @@ bool ArticleManager::incPraise(uint64_t id, const std::string& cooke_id, uint64_
     return true;
 }
 
+// 添加用户对文章的喜欢
 bool ArticleManager::incFavorites(uint64_t id, const std::string& cooke_id, uint64_t user_id) {
     auto info = get(id);
     if(!info) {
@@ -375,6 +385,7 @@ bool ArticleManager::incFavorites(uint64_t id, const std::string& cooke_id, uint
     return true;
 }
 
+// 删除用户对文章的点赞
 bool ArticleManager::decPraise(uint64_t id, const std::string& cooke_id, uint64_t user_id) {
     auto info = get(id);
     if(!info) {
@@ -404,6 +415,7 @@ bool ArticleManager::decPraise(uint64_t id, const std::string& cooke_id, uint64_
     return true;
 }
 
+// 删除用户对文章的喜欢
 bool ArticleManager::decFavorites(uint64_t id, const std::string& cooke_id, uint64_t user_id) {
     auto info = get(id);
     if(!info) {

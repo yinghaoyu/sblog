@@ -20,7 +20,9 @@ public:
     std::string statusString();
 private:
     sylar::RWMutex m_mutex;
+    // 标签id，标签
     std::unordered_map<int64_t, blog::data::LabelInfo::ptr> m_datas;
+    // 用户id，(标签名，标签)
     std::unordered_map<int64_t, std::map<std::string, blog::data::LabelInfo::ptr> > m_users;
 };
 

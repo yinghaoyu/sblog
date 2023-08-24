@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/g/others/sblog/sylar/sylar/fcontext/fcontext.S
+jump_x86_64_sysv_elf_gas.S
+/mnt/g/others/sblog/sylar/sylar/fcontext/jump_x86_64_sysv_elf_gas.S
+make_x86_64_sysv_elf_gas.S
+/mnt/g/others/sblog/sylar/sylar/fcontext/make_x86_64_sysv_elf_gas.S
+
+/mnt/g/others/sblog/sylar/sylar/fcontext/jump_x86_64_sysv_elf_gas.S
+
+/mnt/g/others/sblog/sylar/sylar/fcontext/make_x86_64_sysv_elf_gas.S
+
+/mnt/g/others/sblog/sylar/sylar/libaco/acosw.S
+
+/mnt/g/others/sblog/sylar/sylar/libco/coctx_swap.S
+

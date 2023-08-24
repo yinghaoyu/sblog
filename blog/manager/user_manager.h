@@ -26,9 +26,13 @@ public:
     std::string statusString();
 private:
     sylar::RWMutex m_mutex;
+    // 用户id，用户
     std::unordered_map<int64_t, blog::data::UserInfo::ptr> m_datas;
+    // 用户账号，用户
     std::unordered_map<std::string, blog::data::UserInfo::ptr> m_accounts;
+    // 用户邮箱，用户
     std::unordered_map<std::string, blog::data::UserInfo::ptr> m_emails;
+    // 用户名称，用户
     std::unordered_map<std::string, blog::data::UserInfo::ptr> m_names;
 };
 

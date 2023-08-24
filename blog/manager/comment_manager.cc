@@ -39,6 +39,7 @@ bool CommentManager::loadAll() {
     return true;
 }
 
+// 添加评论
 void CommentManager::add(blog::data::CommentInfo::ptr info) {
     sylar::RWMutex::WriteLock lock(m_mutex);
     m_datas[info->getId()] = info;
@@ -58,6 +59,7 @@ blog::data::CommentInfo::ptr CommentManager::get(int64_t id) {
     XX(m_datas, id);
 }
 
+// 列出文章的评论
 int64_t CommentManager::listByArticleId(std::vector<blog::data::CommentInfo::ptr>& infos,
                         int64_t article_id, int64_t offset, int64_t size, bool valid) {
     sylar::RWMutex::ReadLock lock(m_mutex);
@@ -88,6 +90,7 @@ void CommentManager::addVerify(data::CommentInfo::ptr info) {
     m_verifys[info->getId()] = info;
 }
 
+// 列出待验证的评论
 int64_t CommentManager::listVerifyPages(std::vector<data::CommentInfo::ptr>& infos
                             ,int32_t offset, int32_t size) {
     sylar::RWMutex::ReadLock lock(m_mutex);
